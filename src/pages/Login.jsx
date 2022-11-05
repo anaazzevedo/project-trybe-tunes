@@ -31,9 +31,8 @@ class Login extends Component {
     const { nameInput } = this.state;
     this.setState({
       loading: true,
-      login: true,
     });
-    await createUser(nameInput);
+    await createUser({ name: nameInput });
     this.setState({
       loading: false,
       login: true,
@@ -48,7 +47,6 @@ class Login extends Component {
         ) : (
 
           <form>
-
             <label htmlFor="login-name-input">
               <input
                 data-testid="login-name-input"
@@ -58,16 +56,16 @@ class Login extends Component {
                 nameinput="name"
                 onChange={ this.enabledButton }
               />
-              <button
-                type="button"
-                id="login-submit-button"
-                data-testid="login-submit-button"
-                disabled={ isButtonDisabled }
-                onClick={ this.saveLogin }
-              >
-                Entrar
-              </button>
             </label>
+            <button
+              type="button"
+              id="login-submit-button"
+              data-testid="login-submit-button"
+              disabled={ isButtonDisabled }
+              onClick={ this.saveLogin }
+            >
+              Entrar
+            </button>
           </form>
         )}
         {login && <Redirect to="/search" />}
