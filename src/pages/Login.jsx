@@ -42,12 +42,12 @@ class Login extends Component {
   render() {
     const { isButtonDisabled, loading, login } = this.state;
     return (
-      <div data-testid="page-login">
+      <div data-testid="page-login" className="page-login">
         { loading ? (<Loading />
         ) : (
 
-          <form>
-            <label htmlFor="login-name-input">
+          <form className="form">
+            <label htmlFor="login-name-input" className="input-name">
               <input
                 data-testid="login-name-input"
                 id="login-name-input"
@@ -58,13 +58,14 @@ class Login extends Component {
               />
             </label>
             <button
+              className="button"
               type="button"
               id="login-submit-button"
               data-testid="login-submit-button"
               disabled={ isButtonDisabled }
               onClick={ this.saveLogin }
             >
-              Entrar
+              <strong>Entrar</strong>
             </button>
           </form>
         )}

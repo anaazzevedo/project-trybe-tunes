@@ -5,6 +5,7 @@ body {
     'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #a3b18a;
 }
 
 code {
@@ -16,4 +17,66 @@ code {
   align-items: center;
   display: flex;
   justify-content: center;
+}
+
+.input-name {
+  border-radius: 5%;
+  margin-bottom: 20px;
+  font-family: 'sans-serif';
+}
+
+.button {
+  border-radius: 5px;
+  padding: 2%;
+  width: 40%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid red;
+}
+
+.page-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  padding: 30%;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 2%;
+  background-color: #588157;
+}
+
+.nav {
+  margin: 15px;
+  color: white;
+}
+
+.search {
+  text-decoration: none;
+}
+
+.fav {
+  text-decoration: none;
+}
+
+.profile {
+  text-decoration: none;
+}
+
+.name {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
