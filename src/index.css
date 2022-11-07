@@ -20,29 +20,36 @@ code {
 }
 
 .input-name {
-  border-radius: 5%;
   margin-bottom: 20px;
-  font-family: 'sans-serif';
+}
+
+.title {
+  color: #283618;
+}
+
+.input {
+  border: solid #3a5a40 3px;
+  padding: 3%;
+  border-radius: 8%;
 }
 
 .button {
   border-radius: 5px;
-  padding: 2%;
+  padding: 3%;
   width: 40%;
+  border: solid #3a5a40 1px;
 }
 
 .form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px solid red;
 }
 
 .page-login {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px solid black;
   padding: 30%;
 }
 

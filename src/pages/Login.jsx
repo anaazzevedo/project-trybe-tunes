@@ -47,8 +47,10 @@ class Login extends Component {
         ) : (
 
           <form className="form">
+            <h1 className="title">TRYBEtunes</h1>
             <label htmlFor="login-name-input" className="input-name">
               <input
+                className="input"
                 data-testid="login-name-input"
                 id="login-name-input"
                 name="login-name-input"
