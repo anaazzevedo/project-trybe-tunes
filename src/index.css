@@ -23,6 +23,43 @@ code {
   margin-bottom: 20px;
 }
 
+.input-artist {
+  
+  box-shadow: inset #abacaf 0 0 0 2px;
+  border: 0.5px #3a5a40 solid;
+  background: #b0c4b1;
+  appearance: none;
+  width: 40%;
+  position: relative;
+  border-radius: 3px;
+  padding: 2%;
+  line-height: 1.4;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 400;
+  height: 20px;
+  transition: all .2s ease;
+  margin-right: 10px;
+}
+
+.form-artist {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.button-artist {
+  background: #b0c4b1;
+  border-radius: 5px;
+  padding: 1%;
+  width: 20%;
+  border: solid #3a5a40 1px;
+  font-family: 'Segoe UI', 'Roboto', 
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+}
+
 .title {
   color: #283618;
 }
@@ -86,4 +123,51 @@ code {
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+.listAlbuns {
+  list-style: none;
+  margin: 20px;
+  background-color: #52796f;
+  border-radius: 5%;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #2f3e46;
+  padding: 1%;
+}
+
+.nameAlbuns {
+  text-decoration: none;
+  color: white;
+}
+
+.imgAlbuns {
+  width: 160px;
+  padding: 1%;
+  border-radius: 10%;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.mapAlbuns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.nameTargetAlbuns {
+  text-align: center;
+  padding: 5%;
+}
+
+.h2Albuns {
+  color: white;
+  text-align: center;
+}
+
+.h2notFound {
+  color: white;
+  text-align: center;
 }
