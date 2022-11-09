@@ -171,3 +171,46 @@ code {
   color: white;
   text-align: center;
 }
+
+.listMusics {
+  padding: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+}
+
+.h4Artist {
+  color: white;
+  margin: 3%;
+  text-align: center;
+}
+
+.h4Album {
+  color: white;
+  margin: 3%;
+  text-align: center;
+}
+
+.h3Album {
+  text-align: center;
+  color: white;
+}
+
+.nameAlbum {
+  text-align: center;
+  padding: 3%;
+  width: 80%;
+}
+
+.audio {
+  margin: 10px;
+}
+
+.targetAudio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  flex-wrap: wrap;
+}
